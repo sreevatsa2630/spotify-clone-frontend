@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+
+            <div class="library">
+                    <div class="options">
+                        <div class="lib-option nav-option">
+                            <img src="assets/library_icon.png">
+                            <a href="#">Your Library</a>
+                        </div>
+
+                        <div class="icons">
+                            <i class="fa-solid fa-plus"></i>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+
+                    <div class="lib-box">
+                        <div class="box">
+                            <p class="box-p1">Create your first playlist</p>
+                            <p  class="box-p2">It's easy, we'll help you</p>
+                            <button class="badge">Create playlist</button>
+                        </div>
+                        <div class="box">
+                            <p class="box-p1">Let's find some podcasts to follow</p>
+                            <p  class="box-p2">We'll keep you updated on new episodes</p>
+                            <button class="badge">Browse podcasts</button>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        
+
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                 <img src="assets/backward_icon.png">
+                <img src="assets/forward_icon.png" class="hide">
+            </div>
+            <div class="sticky-nav-options">
+                <button class="badge nav-item hide">Explore Premium</button>
+                <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 5px;" ></i>Install App</button>
+                <i class="fa-regular fa-user nav-item"></i>
+               </div>
+            </div>
+
+                <h2>Popular artists</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="pritam.jpg" class="card-img" style="border-radius: 50%;">
+                        <p class="card-title">Pritam</p>                       
+                        <p class="card-info">Artist</p>
+                    </div>
+                    <div class="card">
+                        <img src="a-r-rahman.jpg" class="card-img" style="border-radius: 50%; height: 150px;">
+                        <p class="card-title">A.R. Rahman</p>                       
+                        <p class="card-info">Artist</p>
+                    </div>
+                    <div class="card">
+                        <img src="sachin-jigar.jpg" class="card-img" style="border-radius: 50%; height: 150px;">
+                        <p class="card-title">Sachin-Jigar</p>                       
+                        <p class="card-info">Artist</p>
+                    </div>
+                    <div class="card">
+                        <img src="arijith.jpg" class="card-img" style="border-radius: 50%; height: 150px;">
+                        <p class="card-title">Arijit Singh</p>                       
+                        <p class="card-info">Artist</p>
+                    </div>
+                    <div class="card">
+                        <img src="anirudh.jpg" class="card-img" style="border-radius: 50%; height: 150px;">
+                        <p class="card-title">Anirudh Ravichander</p>                       
+                        <p class="card-info">Artist</p>
+                    </div>
+                </div>
+
+                <h2>Popular albums</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="glory.jpg" class="card-img">
+                        <p class="card-title">GLORY</p>                       
+                        <p class="card-info">Yo Yo Honey Singh</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="love-hotel.jpg" class="card-img">
+                        <p class="card-title">Love hotel</p>                       
+                        <p class="card-info">leftovermax</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="aashiqui.jpg" class="card-img">
+                        <p class="card-title">Aashiqui 2</p>                       
+                        <p class="card-info">Mithoon,Ankit Tiwari,Jeet Gannguli</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="jo-tum.jpg" class="card-img">
+                        <p class="card-title">Jo Tum Mere Ho</p>                       
+                        <p class="card-info">Anuv Jain</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="making-memories.jpg" class="card-img">
+                        <p class="card-title">Making Memories</p>                       
+                        <p class="card-info">Karan Aujla, lkky</p>
+                    </div>
+                </div>
+
+                <h2>Popular Radio</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="as-radio.jpg" class="card-img">                      
+                        <p class="card-info">With Sachin-Jigar, Mithoon, Atif Aslam and more</p>
+                    </div>
+                    <div class="card">
+                        <img src="dd-radio.jpg" class="card-img">                      
+                        <p class="card-info">With Karan Aujla, AP Dhillon, Shubh and more</p>
+                    </div>
+                    <div class="card">
+                        <img src="kk.jpg" class="card-img">                      
+                        <p class="card-info">With Pritam, Mohit Chauhan, Armaan Malik and more</p>
+                    </div>
+                    <div class="card">
+                        <img src="un.jpg" class="card-img">                      
+                        <p class="card-info">With Abhijeet, Uttam Singh, Anuradha Paudwal and more</p>
+                    </div>
+                    <div class="card">
+                        <img src="ar-radio.jpg" class="card-img">                      
+                        <p class="card-info">
+                            Playlist
+                            With Anirudh Ravichander, Harris Jayaraj, Sid Sriram and more</p>
+                    </div>
+
+                    <h2>Featured Charts</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="tsg.jpg" class="card-img">                      
+                        <p class="card-info">Your weekly update of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="tsu.jpg" class="card-img">                      
+                        <p class="card-info">Your weekly update of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="top50.jpg" class="card-img">                      
+                        <p class="card-info">Your daily update of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="top50usa.jpg" class="card-img">                      
+                        <p class="card-info">Your daily update of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="viral.jpg" class="card-img">                      
+                        <p class="card-info">Your daily update of the most viral tracks...</p>
+                    </div>
+                </div>
+
+                <h2>Spotify Playlists</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="tt.jpg" class="card-img">                      
+                        <p class="card-info">#SpotifyTBT celebrates 40 years...</p>
+                    </div>
+                    <div class="card">
+                        <img src="at.jpg" class="card-img">                      
+                        <p class="card-info">Big hits from the world of acoustics.</p>
+                    </div>
+                    <div class="card">
+                        <img src="2010.jpg" class="card-img">                      
+                        <p class="card-info">Taking it back to the 2010s. Cover: ChiefS...</p>
+                    </div>
+                    <div class="card">
+                        <img src="2000.jpg" class="card-img">                      
+                        <p class="card-info">Taking it back to the 2000s. Cover: Kid...</p>
+                    </div>
+                    <div class="card">
+                        <img src="90.jpg" class="card-img">                      
+                        <p class="card-info">Real rap music from the golden era.</p>
+                    </div>
+                </div>
+
+                <div class="rights">
+                    <li type="none" class="column-1">
+                        <ul>Company</ul>
+                        <ul>About</ul>
+                        <ul>Jobs</ul>
+                        <ul>For the Record</ul>
+                    </li>
+
+                    <li type="none" class="column">
+                        <ul>Communities</ul>
+                        <ul>For Artists</ul>
+                        <ul>Developers</ul>
+                        <ul>Advertising</ul>
+                        <ul>Investors</ul>
+                        <ul>Vendors</ul>
+                    </li>
+
+                    <li type="none" class="column">
+                        <ul>Useful links</ul>
+                        <ul>Support</ul>
+                        <ul>Free Mobile App</ul>
+                    </li>
+
+                    <li type="none" class="column">
+                        <ul>Spotify Plans</ul>
+                        <ul>Premium Individual</ul>
+                        <ul>Premium Duo</ul>
+                        <ul>Premium Family</ul>
+                        <ul>Premium Student</ul>
+                        <ul>Spotify Free</ul>
+                    </li>
+                </div>
+                 <div class="footer">
+                    <div class="line"></div>
+                 </div>
+            </div>
+        </div>
+
+        <div class="music-player">
+           <div class="album">
+            <img src="tum.jpg">
+            <div class="names">
+                <p class="song">Tum Se Hi</p>
+                <p class="singer">Pritn,Mohit Chauhan</p>
+            </div>
+           </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="assets/player_icon1.png" class="player-control-icon">
+                    <img src="assets/player_icon2.png" class="player-control-icon">
+                    <img src="assets/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                    <img src="assets/player_icon4.png" class="player-control-icon">
+                    <img src="assets/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="prograss-bar">
+                    <span class="tot-time">03:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <i class="fa-regular fa-circle-play control-icon"></i>
+                <i class="fa-solid fa-microphone control-icon"></i>
+                <i class="fa-solid fa-grip-lines control-icon"></i>
+                <i class="fa-solid fa-mobile control-icon"></i>
+                <i class="fa-solid fa-volume-off control-icon"></i>
+                <input type="range" class="volumn-icon" min="0" max="100" step="1">
+            </div>
+        </div>
+</div>
+</body>
+</html>
